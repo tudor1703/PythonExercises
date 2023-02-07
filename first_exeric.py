@@ -1,2 +1,3 @@
-print('Hello')
-print(1 + 2)
+name = str(input('Scrieti numele:'))
+print("zdarova " + name)
+
