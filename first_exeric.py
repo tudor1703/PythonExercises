@@ -5,7 +5,7 @@ if choice == "nu":
 elif choice == "da":
    num = input("ghiceste-mi numarul dintre 1 si 100: ")
    numar = random.randint(1, 100)
-   for x in numar:
+   while x = numar:
       if x < num:
          input("numarul meu este mai mic")
       elif x > num:
