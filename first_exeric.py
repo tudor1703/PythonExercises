@@ -1,4 +1,6 @@
 f = open("python.txt", "r")
-t = f.read()
-print(t)
-f.clse()
+t = f.readline()
+sum = 0
+for x in t:
+print(sum)
+f.close()
