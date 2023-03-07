@@ -1,13 +1,4 @@
-given_file = open('input.txt', 'r')
-
-lines = given_file.readlines()
-sum = 0
-
-for line in lines:
-    for c in line:
-        if c.isdigit() == True:
-            sum = sum + int(c)
-
-print(sum)
-
-given_file.close()
+with open("input.txt", "r") as f:
+    score = f.read()
+    score_ints = [ int(x) for x in score.split() ] 
+    print(sum(score_ints))
