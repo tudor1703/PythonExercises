@@ -1,8 +1,8 @@
 import sys
 
-insert = sys.argv[1]
+argv = sys.argv[1]
 
-if insert == '1':
+if argv == 'insert':
     fname = input('enter the first name: ')
     lname = input('enter the last name: ')
     phone_num = input('enter the phone number: ')
